@@ -2,15 +2,18 @@ import React, { Component } from "react";
 import "./App.css";
 
 class App extends Component {
-  state = {
-    person: {
-      fullName: "John Doe",
-      bio: "I like building small web apps and learning new things every day.",
-      imgSrc: "https://randomuser.me/api/portraits/men/32.jpg",
-      profession: "Junior Web Developer",
-    },
-    shows: false,
-    seconds: 0,
+  constructor(props) {
+    super(props);
+    this.state = {
+      person: {
+        fullName: "John Doe",
+        bio: "A passionate software developer with a love for creating innovative solutions.",
+        imgSrc: "https://via.placeholder.com/150",
+        profession: "Software Engineer",
+      },
+      shows: false,
+      seconds: 0,
+    };
   };
 
   // runs once, right after the component is added to the page
