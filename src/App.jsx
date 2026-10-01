@@ -8,7 +8,7 @@ class App extends Component {
       person: {
         fullName: "John Doe",
         bio: "A passionate software developer with a love for creating innovative solutions.",
-        imgSrc: "https://via.placeholder.com/150",
+        imgSrc: "https://randomuser.me/api/portraits/men/32.jpg",
         profession: "Software Engineer",
       },
       shows: false,
